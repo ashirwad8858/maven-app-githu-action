@@ -33,5 +33,5 @@ jobs:
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: deploy
-      run: java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+      run: java -cp target/maven-app-1.0-SNAPSHOT.jar com.mycompany.app.App
 
