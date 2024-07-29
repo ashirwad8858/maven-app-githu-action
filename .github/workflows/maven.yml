@@ -30,7 +30,7 @@ jobs:
         # cache: maven
         architecture: x64
     - name: install Maven
-      run: apt-get install maven -y
+      run: sudo apt-get install maven -y
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
