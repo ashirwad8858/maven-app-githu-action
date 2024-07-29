@@ -48,5 +48,5 @@ jobs:
         body: The job has completed successfully!
         to: ashirwadsharma12795@gmail.com
         from: devteam2233@gmail.com
-        secure: true
+        secure: false
 
